@@ -15,3 +15,7 @@ float LuasBelahKetupat(float diagonal1, float diagonal2){
     return diagonal1 * diagonal2 * 0.5;
 }
 
+void output(){
+    cout << "Hasilnya : " << LuasBelahKetupat(diagonal1, diagonal2) << endl;
+}
+
