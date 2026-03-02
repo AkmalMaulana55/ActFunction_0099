@@ -11,3 +11,7 @@ void input(){
     cin >> diagonal2;
 }
 
+float LuasBelahKetupat(float diagonal1, float diagonal2){
+    return diagonal1 * diagonal2 * 0.5;
+}
+
