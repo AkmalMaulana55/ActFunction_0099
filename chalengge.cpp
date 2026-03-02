@@ -19,3 +19,7 @@ void output(){
     cout << "Hasilnya : " << LuasBelahKetupat(diagonal1, diagonal2) << endl;
 }
 
+int main(){
+    input();
+    output();
+}
